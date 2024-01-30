@@ -83,4 +83,13 @@ pagos.belongsTo(carro)
 
 
 // Exportar el objeto sequelize
-module.exports = sequelize;
+module.exports = {
+gerente,
+restaurante,
+menu,
+plato,
+categoria,
+subCategoria,
+carro,
+pagos
+};
