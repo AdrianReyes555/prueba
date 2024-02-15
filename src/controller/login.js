@@ -55,6 +55,7 @@ registroCtl.showProfile = async (req, res) => {
     }
 };
 
+/////////////
 registroCtl.login = (req, res, next) => {
     req.login(function (err) {
         if (err) {
